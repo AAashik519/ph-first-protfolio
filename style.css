@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+     
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ h1{
+     font-size: 40px;
+     
+ }
+ .name-highlite{
+    color: orange;
+ }
+ 
+ .head-text{
+     width: 40%;
+     float: left;
+     margin-left: 5%; 
+     margin-top: 20px;
+    padding:2px;
+    text-align: justify;
+    
+ }
+ .head-img{
+     width: 40%;
+     float:  left;  
+     margin-left: 5%; 
+     margin-top: 20px;
+    
+     
+
+ }
+ .head-img img{
+    width: 500px;
+    height: auto;
+ }
+
+ .head{
+     background-image: url("img/top-banner.png");
+     height:80vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     margin-bottom: 10px;
+ }
+  .contact-info{
+      padding: 5px 15px;
+      background-color: orange;
+      color: #111;
+      text-decoration: none;
+      border: 1px silod orange;
+      border-radius: 4px;
+      background-image: linear-gradient(lightSalmon, tomato)
+
+  }
+  .dream-area{
+    background-image: url(img/dream-bg.png);
+    height:80vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     
+     background-position: right;
+     
+ 
+  }
+  .exp-area{
+     padding: 30px 0;
+     background-image: url(img/exp-bg.png);
+     background-repeat: no-repeat;
+     height: 50vh;
+     background-position: left;
+  }
+  .exp-area .head-text{
+      margin-bottom: 50px;
+      padding: 30px 0;
+       
+  }
+ 
+  .singel-exp{
+      box-shadow: 10px 10px 40px gray;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background: #fff;
+     
+  }
+
+  .pad{
+      padding: 2px 15px;
+  }
+
+  #full-stack{
+      border-left: 7px solid lightsalmon;
+      border-image: linear-gradient(180deg, lightSalmon ,  tomato);
+      border-image-slice: 1;
+  }
+
+    #baby-dev{
+        border-left: 7px solid ;
+        border-image: linear-gradient(180deg, blue,  cyan);
+        border-image-slice: 1;
+    }
+     
+    .footer-tag{
+        
+        text-align: center;
+        font-size: 20px;
+        color: #767676;
+    }
